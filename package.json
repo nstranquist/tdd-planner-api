@@ -1,0 +1,11 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "api for tdd-planner app",
+  "main": "./src/bin/www.js",
+  "scripts": {
+    "test": "mocha --recursive ./tests"
+  },
+  "author": "nicostran",
+  "license": "ISC"
+}
