@@ -1,8 +1,10 @@
 import express from 'express';
-import { testEnv } from '../settings';
+import { HomeController } from '../controllers';
 
 const indexRouter = express.Router();
 
-indexRouter.get('/', (req, res) => res.status(200).json({ message: testEnv }));
+const homeController = new HomeController();
+
+indexRouter.get('/', homeController.indexPage);
 
 export default indexRouter;
