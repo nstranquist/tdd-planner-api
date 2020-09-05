@@ -10,3 +10,6 @@ This application will be the api for the tdd planner app, currently being built 
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/6bb14f2d2751da7a7e31/maintainability)](https://codeclimate.com/github/nstranquist/tdd-planner-api/maintainability)
 
+### Database
+
+Using ElephantSQL for a cloud SQL Database
